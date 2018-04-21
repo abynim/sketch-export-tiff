@@ -1,0 +1,30 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Export TIFF",
+      "icon" : "icon.png",
+      "description" : "Export a TIFF image with multiple resolutions from selected layers",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "sketch-export-tiff"
+    }
+  ],
+  "menu" : {
+    "title" : "Export TIFF",
+    "isRoot" : true,
+    "items" : [
+      "sketch-export-tiff"
+    ]
+  },
+  "identifier" : "com.abynim.sketch-export-tiff",
+  "version" : "1.0",
+  "description" : "Export TIFF images with multiple resolutions",
+  "authorEmail" : "abynimbalkar@gmail.com",
+  "disableCocoaScriptPreprocessor" : true,
+  "name" : "Export TIFF",
+  "icon" : "icon.png",
+  "appcast" : "https://raw.githubusercontent.com/abynim/sketch-export-tiff/master/appcast.xml"
+}
